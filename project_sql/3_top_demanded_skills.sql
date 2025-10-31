@@ -1,3 +1,9 @@
+/*
+Calculating the number of remote job postings per skill.  
+Displaying the top 5 skills by demand in remote jobs,  
+including skill ID, skill name, and the count of postings requiring each skill.  
+*/
+
 SELECT skills,
     COUNT(skills_job_dim.job_id) AS demand_count
 FROM job_postings_fact

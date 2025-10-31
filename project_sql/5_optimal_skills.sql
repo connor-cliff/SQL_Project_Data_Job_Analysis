@@ -1,4 +1,12 @@
-With skills_demand AS (
+/*
+Identifying the most optimal skills to learn: those in high demand and offering high salaries.  
+Focuses on remote Data Analyst positions with specified salaries.  
+Highlights skills that provide both job security (high demand) and strong financial benefits (high salaries),  
+offering strategic insights for career development in data analysis.  
+*/
+
+
+WITH skills_demand AS (
     SELECT 
         skills_dim.skill_id,
         skills_dim.skills,
