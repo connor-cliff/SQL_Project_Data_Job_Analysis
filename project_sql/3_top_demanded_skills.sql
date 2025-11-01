@@ -17,3 +17,33 @@ GROUP BY
 ORDER BY
     demand_count DESC
 LIMIT 5
+
+/*
+Summary: The query identified the top five most in-demand skills for remote 
+Data Analyst job postings. SQL is the most required skill, appearing in 7,291 
+postings, followed by Excel (4,611), Python (4,330), Tableau (3,745), and 
+Power BI (2,609).
+
+[
+  {
+    "skills": "sql",
+    "demand_count": "7291"
+  },
+  {
+    "skills": "excel",
+    "demand_count": "4611"
+  },
+  {
+    "skills": "python",
+    "demand_count": "4330"
+  },
+  {
+    "skills": "tableau",
+    "demand_count": "3745"
+  },
+  {
+    "skills": "power bi",
+    "demand_count": "2609"
+  }
+]
+*/
