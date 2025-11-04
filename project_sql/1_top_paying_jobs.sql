@@ -4,7 +4,7 @@ This analysis focuses on job postings with specified salaries (excluding null va
 to highlight the top-paying opportunities and provide insights into employment trends for Data Analysts.  
 */
 
-
+ 
 SELECT 
     job_id,
     job_title,
